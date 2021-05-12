@@ -1,0 +1,195 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+}
+p{
+  line-height: 2;
+}
+h2{
+   font-family: Ubuntu;
+}
+
+/* NAV */
+.nav_bar{
+  padding: 60px 100px 20px 100px;
+  background: #282829;
+  position: fixed;
+  top:0;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  z-index: 2;
+}
+.nav_bar a{
+  color: white;
+  font-family: Montserrat;
+  text-decoration: none;
+  flex-grow: 1;
+}
+.nav_bar a:hover{
+  color: pink;
+}
+
+ /* INTRO */
+.intro{
+  height: 100vh;
+  font-family: Montserrat;
+  color: white;
+  /* ab4b52; */
+  text-align: left;
+  display: flex;
+}
+.introBox1{
+  width: 50vw;
+  padding-left: 7rem;
+  padding-top: 250px;
+  background-color: #E6DACE;
+}
+
+/* ABOUT */
+.about{
+  height: 100%;
+  width: 65%;
+  color: #B2A69D;
+  padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+.about h4{
+   padding-top: 20px;
+   background-image: -webkit-linear-gradient(180deg,white 50%,#e7e9bb 80%);
+}
+.about p{
+  font-family: Montserrat;
+}
+.boy{
+   margin-top: 20px;
+   height: 200px;
+   width: 200px;
+   border-radius: 150%;
+   align-self: center;
+}
+
+/* SKILLS */
+.skills{
+  height: 100%;
+  color: #B2A69D;
+  padding-top: 150px;
+  padding-bottom: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-set{
+  padding-top: 40px;
+  padding-left: 3rem;
+  /* padding-right: 3rem; */
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Montserrat;
+}
+.skill{
+  color: #000000;
+  min-width: 20vw;
+  margin-bottom: 20px;
+  border-radius: 40px 40px 40px 40px;
+}
+.cpp{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#5cdb94 80%);
+}
+.html{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#ff7171 80%);
+}
+.css{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#e7e9bb 80%);
+}
+.js{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#10d2df 80%);
+}
+.bootstrap{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#f6bed6 80%);
+}
+.nodejs{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#b8b5ff 80%);
+}
+.expressjs{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#cf879e 80%);
+}
+.ejs{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#f3db6a 80%);
+}
+.git{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#f2bb95 80%);
+}
+.mysql{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#a2a6c9 80%);
+}
+.mongodb{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#9fd6a8 80%);
+}
+
+/* PROJECTS */
+.projects{
+  height: 100%;
+  padding-top: 150px;
+  background-color:#233142;
+  /* #233142; */
+  padding-bottom: 100px;
+}
+.projects h2{
+  padding-bottom: 30px;
+  font-family: Montserrat;
+  color: white;
+}
+
+.Card_deck{
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.card{
+  border-radius: 30%;
+}
+
+
+.card-title{
+  background-image: -webkit-linear-gradient(180deg,white 50%,#e7e9bb 80%);
+  font-family: Ubuntu;
+  color: #8f8f8f;
+}
+.card-text{
+  font-family: sans-serif;
+  color: #B2A69D;
+}
+
+/* footer */
+.footer{
+  display: flex;
+}
+.foot1{
+  height: 40px;
+  width: 100%;
+  display: inline-block;
+  background-image: -webkit-linear-gradient(180deg,white 20%,#E6DACE 80%);
+}
+/* Media Queries */
+@media (max-width: 700px) {
+  .nav_bar{
+    flex-direction: column;
+    padding-top: 20px;
+ }
+ .introBox1{
+   width: 100vw;
+ }
+ .card{
+   border-radius: 0;
+ }
+}
