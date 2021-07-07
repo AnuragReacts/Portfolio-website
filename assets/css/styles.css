@@ -38,7 +38,7 @@ h2{
 .intro{
   height: 100vh;
   font-family: Montserrat;
-  color: white;
+  color: #ab4b52;
   /* ab4b52; */
   text-align: left;
   display: flex;
@@ -154,20 +154,21 @@ h2{
 .Card_deck{
   margin-left: 7rem;
   margin-right: 7rem;
+  display: flex;
+  /* flex-wrap: wrap; */
 }
 .card{
-  border-radius: 2%;
-  max-width: 400px;
-}
-.card:hover{
-  box-shadow: 0 0 15px ghostwhite;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  min-width: 300px;
+  /* height: 500px; */
 }
 
 
 .card-title{
-  background-image: -webkit-linear-gradient(180deg,white 50%,#e7e9bb 80%);
+  background: #87A7B3;
   font-family: Ubuntu;
-  color: #8f8f8f;
+  color: white;
 }
 .card-text{
   font-family: sans-serif;
