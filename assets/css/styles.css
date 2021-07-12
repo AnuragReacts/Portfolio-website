@@ -175,9 +175,6 @@ h2{
   color: #B2A69D;
 }
 
-.hidden{
-  color: white;
-}
 /* Media Queries */
 @media (max-width: 700px) {
   .nav_bar{
